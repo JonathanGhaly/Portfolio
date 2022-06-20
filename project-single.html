@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="images/P.png"
+            type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler d-lg-none" type="button"
+                data-toggle="collapse" data-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="projects.html"
+                            id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Python</a>
+                            <a class="dropdown-item" href="#"> 2</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text"
+                        placeholder="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0"
+                        type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div id="fullpage">
+            <div class="section" id="section0">
+                <div class="container">
+                    <h1>Project Title</h1>
+                    <p>Description Here</p>
+                    <table class="m-auto" >
+                    <tr>
+                        <th>
+                            Technlogoies
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>1- Laravel</td>
+                    </tr>
+                        
+                    <tr>
+                        <td>2- Laravel</td>
+                    </tr>
+                        
+                    <tr>
+                        <td>3- Laravel</td>
+                    </tr>
+                    </table>
+                    <div class="align-items-center mt-3">
+                        <a href="#" class="btn btn-outline-light my-2 mr-2
+                            my-sm-0">Git Code</a>
+                        <a href="#" class="btn btn-outline-light my-2
+                            my-sm-0">Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="section1">
+                <div class="container">
+                    <h1>Diagrams and Pictures</h1>
+                    <div class="pl-5">
+                    <div class="gallery">
+                        <a target="_blank" href="images/106572616_1730875507050475_2128237569637143070_n.jpg">
+                          <img src="images/106572616_1730875507050475_2128237569637143070_n.jpg" alt="Cinque Terre" width="600" height="400">
+                        </a>
+                        <div class="desc">Add a description of the image here</div>
+                      </div>
+                      
+                      <div class="gallery">
+                        <a target="_blank" href="images/106572616_1730875507050475_2128237569637143070_n.jpg">
+                          <img src="images/106572616_1730875507050475_2128237569637143070_n.jpg" alt="Forest" width="600" height="400">
+                        </a>
+                        <div class="desc">Add a description of the image here</div>
+                      </div>
+                      
+                      <div class="gallery">
+                        <a target="_blank" href="images/106572616_1730875507050475_2128237569637143070_n.jpg">
+                          <img src="images/106572616_1730875507050475_2128237569637143070_n.jpg" alt="Northern Lights" width="600" height="400">
+                        </a>
+                        <div class="desc">Add a description of the image here</div>
+                      </div>
+                      
+                      <div class="gallery">
+                        <a target="_blank" href="images/106572616_1730875507050475_2128237569637143070_n.jpg">
+                          <img src="images/106572616_1730875507050475_2128237569637143070_n.jpg" alt="Mountains" width="600" height="400">
+                        </a>
+                        <div class="desc">Add a description of the image here</div>
+                      </div>
+                      
+                      <div class="gallery">
+                        <a target="_blank" href="images/106572616_1730875507050475_2128237569637143070_n.jpg">
+                          <img src="images/106572616_1730875507050475_2128237569637143070_n.jpg" alt="Mountains" width="600" height="400">
+                        </a>
+                        <div class="desc">Add a description of the image here</div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="js/vendors/easings.js"></script>
+        <script type="text/javascript" src="js/dist/fullpage.js"></script>
+        <script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+        menu: '#menu',
+
+        // `easeInOutBack` is defined in `../vendors/easings.js`
+    });
+</script>
+    </body>
+
+</html>

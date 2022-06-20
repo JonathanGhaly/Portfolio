@@ -1,3 +1,16 @@
+.link{
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s ease-in-out;
+}
+.link:hover{
+  color: dimgray;
+
+}
+.list-item{
+  list-style-type: decimal;
+}
+
 .show > .dropdown-menu {
     max-height: 800px;
     visibility: visible;
@@ -11,4 +24,23 @@
     overflow: hidden;
   }
   
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
   
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }

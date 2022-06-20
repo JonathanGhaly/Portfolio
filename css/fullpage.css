@@ -9,6 +9,7 @@
  * Copyright (C) 2021 http://alvarotrigo.com/fullPage - A project by Alvaro Trigo
  */
  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&family=Roboto:wght@300&display=swap');html.fp-enabled,
+ 
 .fp-enabled body {
     font-family: 'Comfortaa', cursive;
     font-family: 'Roboto', sans-serif;
